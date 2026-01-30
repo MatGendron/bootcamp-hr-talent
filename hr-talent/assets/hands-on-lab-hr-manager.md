@@ -5,7 +5,7 @@
 - [Use case description](#use-case-description)
 - [Talent acquisition agent](#-talent-acquisition-agent)
 - [Automate talent acquisition agent using agentic workflows](#-automate-talent-acquisition-agent-using-agentic-workflows)
-- [HR case review agent](#-hr-case-review-agent)
+- [HR case review agent](#--hr-case-review-agent)
 
 ## Use Case Description
 
