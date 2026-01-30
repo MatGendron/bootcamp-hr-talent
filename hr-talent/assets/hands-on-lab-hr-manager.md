@@ -5,7 +5,7 @@
 - [Use case description](#use-case-description)
 - [Talent acquisition agent](#-talent-acquisition-agent)
 - [Automate talent acquisition agent using agentic workflows](#-automate-talent-acquisition-agent-using-agentic-workflows)
-- [HR case review agent](#--hr-case-review-agent)
+- [HR case review agent](#-hr-case-review-agent)
 
 ## Use Case Description
 
@@ -185,7 +185,7 @@ The next part of the lab is more advanced and requires some low-coding skills an
 
 **🎉🎉 Congratulations!! You have completed the talent acquisition module. You're ready to go to the next one!**
 
-## 🧑‍💼📝 HR case review agent
+## 📝 HR case review agent
 
 1. Create another agent as you did earlier. This time, add the following to the description:
 
