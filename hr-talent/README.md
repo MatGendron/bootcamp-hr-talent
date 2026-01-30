@@ -1,7 +1,7 @@
 # 🧑‍💼 Agentic HR Management
-`Chat with documents` `RAG` `Flows` `Intelligent Document Processing` `Multi-agent orchestration`
-<img width="993" alt="Screenshot 2025-09-24 at 3 57 57 PM" src="https://github.ibm.com/skol/agentic-ai-client-bootcamp/assets/12043/c86976cc-cb38-483a-b8c8-d48f24a70bf1">
 
+`Chat with documents` `RAG` `Flows` `Intelligent Document Processing` `Multi-agent orchestration`
+![Bootcamp Illustration](../images/bootcamp_illu.png)
 
 ## 🤔 The Problem
 
@@ -23,24 +23,21 @@ For recruiting, Luisa gets many PDFs with candidate résumés. She has to:
 
 Luisa would like to make her hiring process more efficiently.
 
-
 ## 🎯 Objective
 
 In this lab you will automate many of the tedious tasks related to recruiting talent in Luisa's organization, as well as providing an AI tool to help Luisa review reports for potential violations to the Business Conduct Guidelines of the company.
 
-
 ## 📈 Business value
 
-Luisa and her team would be able to save hundreds of hours spent scanning résumés and job descriptions manually by leveraging Agentic AI. Also, Luisa will save some time matching which potential sections of the BCG might be infringed in each of the cases she's reviewing. 
+Luisa and her team would be able to save hundreds of hours spent scanning résumés and job descriptions manually by leveraging Agentic AI. Also, Luisa will save some time matching which potential sections of the BCG might be infringed in each of the cases she's reviewing.
 
 ## 🏛️ The solution
 
-<img width="1719" alt="Screenshot 2025-09-22 at 9 16 06 PM" src="https://github.ibm.com/skol/agentic-ai-client-bootcamp/assets/12043/9556f3ed-e49b-4355-b901-23f84ac85442">
+![An Agentic Example](../images/agentic_example.png)
 
 ## 🎥 Demo
 
 Coming soon
-
 
 ## 📄 Hands-on step-by-step lab
 
