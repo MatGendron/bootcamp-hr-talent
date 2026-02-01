@@ -52,6 +52,8 @@ This agent helps figure out whether a set of candidates match the skills given i
 ![profile](./hands-on-lab-assets/agent_profile.png)
 <br>
 <br>
+For this agent, we will use the **llama-3-2-90b-vision-instruct** model. You can select it in the **Model** drop-down:
+![select-agent-model](./hands-on-lab-assets/acquisition_agent_change_model.png)
 
 4. Scroll down and enable the **Chat with Documents** toggle:
 
