@@ -29,7 +29,7 @@ In the [first part of the HR Talent lab](./hands-on-lab-hr-manager.md) you used 
 
 An agentic workflow represents a sequence of steps that utilizes conditional controls and activities. Agentic workflows allow us to create sequences of tasks, as well as conditions, branches and loops. We can use a variety of nodes, including small code blocks, user input, document processing nodes to extract data from documents, and generative prompts to create and configure LLM prompts with inputs and outputs.
 
-Rather than handling each step individually, agents can start an angetic workflow to manage the entire process from beginning to end. Agentic workflows are ideal for tasks that require coordination across systems or multiple decision points.
+Rather than handling each step individually, agents can start an agentic workflow to manage the entire process from beginning to end. Agentic workflows are ideal for tasks that require coordination across systems or multiple decision points.
 
 For example, an agentic workflow can be created to handle employee onboarding: collecting information, creating accounts, sending welcome emails, and notifying internal teams. Once built, this agentic workflow can be reused across departments, triggered by agents whenever a new employee joins —- no need to manually coordinate each step.
 
@@ -64,17 +64,6 @@ In this part of the lab we will implement the following workflow:
 
 We will now walk you through creating the above workflow step by step. We will first create a separate agent to experiment.
 
-### Access watsonx Orchestrate
-
-From the ibm cloud home page click on the **resource list** button in the navigation menu on the left-hand side.
-
-![ibm cloud home page](./hands-on-lab-assets/ibm_home_page.png)
-
-In the resource list, under AI/Machine Learning, click the link to your watsonx Orchestrate instance.
-
-![watsonx orchestrate in resource list](./hands-on-lab-assets/resource_list.png)
-
-Click on the "Launch watsonx Orchestrate" button on the next screen.
 
 ### Create a new agent
 
@@ -148,7 +137,7 @@ The flow has two nodes only for now - the start node with 0 inputs and 0 variabl
 
 We will next configure a couple flow variables that we can use througout our flow. We will need two:
 
-- _num_candidates_ - a list that represents a range of integers _0_ to _n_ where _n_ is the number of candidates To upload and process multiple candidate resumes, we will use a **For each** node. In order to do this, we can iteratate over _num_candidates_
+- _num_candidates_ - a list that represents a range of integers _0_ to _n_ where _n_ is the number of candidates. To upload and process multiple candidate resumes, we will use a **For each** node. In order to do this, we can iteratate over _num_candidates_
 - _candidates_ - this is a string variable that will hold extracted candidates' names and corresponding skills. We will need it so we can use it in a generative prompt node
 
 Click on the flow variable button then add a flow variable and select **Integer**:
@@ -388,7 +377,7 @@ Once the document has been processed, you will see the following screen:
 
 ![Document extractor showing processed job description document](./hands-on-lab-assets/job_desc_doc_proc.png)
 
-Add two fields, similar to what you did for the resume extractor. This time, however, add fields **required** and **preferred** to extract required and preferred skills:
+Add two fields, similar to what you did for the resume extractor. This time, however, add fields **required** and **preferred** to extract required and preferred skills.
 
 Close the extractor node once done.
 
@@ -565,7 +554,7 @@ Then choose the relevant data:
 ## Pulling it all together
 
 In this part of the lab we automated the process of extracting skills from resumes and the job description and summarizing how well the candidates' skills match the skills required and preferred for the job. We used **document processing** nodes to define the fields to be extracted from documents and to train the document processor. We then fed the output of the document processing nodes as input into the **generative prompt** node which composed the right prompt for the LLM to summarize how well candidate skills match the job requirements.
-We could easily expand this workflow with additional nodes and branches, for example to send an email to the highest-ranked candidates, to ask them to pick an interview slot, and to confirm their response was received. Running these tasks as a workflow allows for a more deterministic way to handle repetitive tasks, so that the agent can drive the process and involve the HR Manager know whenever their input is needed.
+We could easily expand this workflow with additional nodes and branches, for example to send an email to the highest-ranked candidates, to ask them to pick an interview slot, and to confirm their response was received. Running these tasks as a workflow allows for a more deterministic way to handle repetitive tasks, so that the agent can drive the process and involve the HR Manager whenever their input is needed.
 
 As you noticed when you tested the flow, depending on how the confidence thresholds are set up in the document processing nodes, human verification can be requested to make sure field data is extracted correctly.
 
