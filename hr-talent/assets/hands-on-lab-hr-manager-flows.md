@@ -40,6 +40,10 @@ By using agentic workflows, business users gain:
 - Visibility into how processes run and where bottlenecks occur.
 - Scalability to apply the same logic across teams, regions, or products.
 
+## Disclaimer
+
+watsonx Orchestrate is a constantly evolving platform and some of the content in this lab may not faithfully reflect the current interface. Please refer to a bootcamp facilitator in case of issue.
+
 ## Pre-requisites
 
 If you haven't yet as part of the earlier steps of the HR Manager lab, download the following files:
@@ -540,6 +544,23 @@ Each candidate row shows which skills the candidate has.
 The agent summarizes by telling us who the recommended candidate is:
 
 ![Agent response recommending the best candidate based on skills match](./hands-on-lab-assets/recommended_candidate.png)
+
+## Troubleshooting
+
+By default, watsonx Orchestrate uses AI to determine node inputs. In case of issue when executing the flow, you can try to specifiy node inputs.<br>
+In the flow for this lab this can apply to the `Resume extractor`, `Extract job skills`and `Match candidate skills to job skills` nodes.
+
+To specify node inputs, click on a node, then click on **Edit data mapping**:
+
+![Edit data mapping button](./hands-on-lab-assets/troubleshoot_edit_data_mapping.png)
+
+Click on the **variable** icon:
+
+![Variable icon](./hands-on-lab-assets/troubleshoot_variable.png)
+
+Then choose the relevant data:
+
+![Choose data](./hands-on-lab-assets/troubleshoot_select_var.png)
 
 ## Pulling it all together
 

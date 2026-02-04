@@ -27,6 +27,10 @@ For recruiting, Luisa gets many PDFs with candidate résumés. She has to:
 
 Luisa would like to make her hiring process more efficiently.
 
+## Disclaimer
+
+watsonx Orchestrate is a constantly evolving platform and some of the content in this lab may not faithfully reflect the current interface. Please refer to a bootcamp facilitator in case of issue.
+
 ## 🥇 Talent acquisition agent
 
 This first agent will help with the recruiting process. Follow these steps to build your Talent Acquisition AI Agent:
