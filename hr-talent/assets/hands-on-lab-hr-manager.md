@@ -183,13 +183,12 @@ draft an email to Emma to invite her for an interview with Aisha. Use Aisha's av
 
 ## 🤖 Automate talent acquisition agent using agentic workflows
 
-Thus far, you built an agent leveraging the **Chat with documents** feature of watsonx Orchestrate to upload process résumés, job descriiptions and interviewer schedules. In this case the agent's LLM does all the heavy lifting while it is Luisa's role to provide the right prompt/query.
+So far, you've built an agent leveraging the **Chat with documents** feature of watsonx Orchestrate to upload process résumés, job descriptions and interviewer schedules. In this case the agent's LLM does all the heavy lifting while it is Luisa's role to provide the right prompt/query.
 
 However, it is often not obvious what the right prompt should be, especially for an HR Manager without prompt engineering background. Furthermore, there might be additional steps involved, such as automatically reaching out to the selected candidate or automatically scheduling interviews. In this case we could leverage **Agentic Workflows**.
 
-The next part of the lab is more advanced and requires some low-coding skills and familiarity with basic programming concepts such as variables and for each loops. If you would like to learn how to work with **Agentic Workflows** [follow these steps](./hands-on-lab-hr-manager-flows.md)
+The next part of the lab is about **Agentic Workflows**. It is more advanced and requires some low-coding skills and familiarity with basic programming concepts such as variables and for each loops. If you want to start right away, [follow these steps](./hands-on-lab-hr-manager-flows.md)
 
-**🎉🎉 Congratulations!! You have completed the talent acquisition module. You're ready to go to the next one!**
 
 ## 📝 HR case review agent
 
@@ -239,13 +238,13 @@ How about this one: my manager gave me a chocolate from Hawaii after her trip to
 <br>
 <br>
 
-5. You can notice how the above might not be, in practice, a real violation to the Business Conduct Guidelines. We can tweak the agent to address certain situations differently. For that we can use the **Guidelines** feature. Scroll down to the **Guideliness** section and click on **New Guideline**:
+5. You can notice how the above might not be, in practice, a real violation to the Business Conduct Guidelines. We can tweak the agent to address certain situations differently. For that we can use the **Guidelines** feature. Scroll down to the **Guideliness** section and click on **Add Guideline**:
 
 ![new guideline](./hands-on-lab-assets/new_guideline.png)
 <br>
 <br>
 
-6. Save it and try the same query one more time in the chat. You should see something like this:
+6. Fill the guideline as follow and save it:
 
 ![guideline saved](./hands-on-lab-assets/guideline_saved.png)
 <br>
@@ -259,7 +258,7 @@ How about this one: my manager gave me a chocolate from Hawaii after her trip to
 
 ## 🛠️ Let's put it all together
 
-We have seen how you can create two separate agents to address different business needs, namely (1) Talent Acquisition and (2) HR Case Reviews. But wouldn't it be cool to have a single interface to address both kinds of queries from the user? To do som let's create an HR Manager Agent able to route queries accordingly.
+We have seen how you can create two separate agents to address different business needs, namely (1) Talent Acquisition and (2) HR Case Reviews. But wouldn't it be cool to have a single interface to address both kinds of queries from the user? To do so, let's create an HR Manager Agent able to route queries accordingly.
 
 1. Create a new agent. Use the same procedure above. In the description, provide some basic routing directions such as:
 
