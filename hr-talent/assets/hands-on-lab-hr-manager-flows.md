@@ -453,7 +453,11 @@ Your prompt should now look like this:
 
 ![Complete generative prompt configuration with system prompt, user prompt, and variables](./hands-on-lab-assets/generative_prompt_finished.png)
 
-Click on **Generate response** to run the prompt on the test values you provided and observe the results returned:
+Navigate to the **Adjust LLM settings** tab, set the **max number of tokens** to **1000** and the **creative threshold** all the way to **more precise**.
+
+!["Adjust LLM settings" tab with max number of tokens set to 1000 and creative threshold set to more precise](./hands-on-lab-assets/adjust_llm_settings.png)
+
+Click on **Generate preview** to run the prompt on the test values you provided and observe the results returned:
 
 ![Generative prompt test results showing candidate skills comparison table](./hands-on-lab-assets/gen_prompt_test.png)
 

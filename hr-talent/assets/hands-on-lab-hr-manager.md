@@ -189,7 +189,6 @@ However, it is often not obvious what the right prompt should be, especially for
 
 The next part of the lab is about **Agentic Workflows**. It is more advanced and requires some low-coding skills and familiarity with basic programming concepts such as variables and for each loops. If you want to start right away, [follow these steps](./hands-on-lab-hr-manager-flows.md)
 
-
 ## 📝 HR case review agent
 
 1. Create another agent as you did earlier. This time, add the following to the description:
@@ -270,7 +269,16 @@ This agent manages different HR requests:
 2. HR Case Reviewer: processing HR complaints or cases submitted by employees as potential violations to the Business Conduct Guideliness
 ```
 
-2. Scroll down to the Agents section.
+2. Scroll down to the Agents section and click **Add agent**.
+
+![agents section](./hands-on-lab-assets/add_agent.png)
+
 3. Select Add from Local Instance
+
+![add from local instance](./hands-on-lab-assets/local_instance.png)
+
 4. Search for the two agents you just created and add them both.
+
+![add agents](./hands-on-lab-assets/agents_added.png)
+
 5. Now try different queries on the HR Manager Agent
