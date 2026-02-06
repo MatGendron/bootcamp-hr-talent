@@ -37,8 +37,10 @@ Luisa and her team would be able to save hundreds of hours spent scanning résum
 
 ## 📄 Hands-on step-by-step lab
 
+Please use **Chrome** or **Firefox** to access watsonx Orchestrate as Safari is an unsupported browser.
+
 If you do not already have access to a watsonx Orchestrate instance, please refer to the [Instructions for watsonx Orchestrate Free Trial](./instructions-for-wxo-trial.md) guide to create one.
 
-Please find the step-by-step instructions [in the Chat with Documents lab guide](/hr-talent/assets/hands-on-lab-hr-manager.md) on how you can implement this use case.
+First follow the step-by-step guide [in the Chat with Documents lab guide](/hr-talent/assets/hands-on-lab-hr-manager.md) to learn how you can implement this use case.
 
-You can also directly move on the [the Flow Builder lab guide](/hr-talent/assets/hands-on-lab-hr-manager-flows.md) to learn how to build the the agentic workflow for this use case.
+Then move on to [the Flow Builder lab guide](/hr-talent/assets/hands-on-lab-hr-manager-flows.md) to learn how to build the agentic workflow for this use case.

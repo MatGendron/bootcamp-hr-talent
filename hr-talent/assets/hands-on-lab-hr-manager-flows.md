@@ -64,10 +64,9 @@ In this part of the lab we will implement the following workflow:
 
 We will now walk you through creating the above workflow step by step. We will first create a separate agent to experiment.
 
-
 ### Create a new agent
 
-Open the Agent Builder in watsonx Orchestrate, if you aren't there already -- click on **Build->Agent Builder** in the main hamburger menu.
+Open the Agent Builder in watsonx Orchestrate, if you aren't there already -- click on **Build** in the main hamburger menu.
 
 ![watsonx Orchestrate navigation menu with Build and Agent Builder options highlighted](./hands-on-lab-assets/open_agent_builder.png)
 
