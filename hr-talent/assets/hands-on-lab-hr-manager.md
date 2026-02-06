@@ -65,13 +65,13 @@ For this agent, we will use the **llama-3-2-90b-vision-instruct** model. You can
 <br>
 <br>
 
-5. Now let's deploy the agent by clicking on the blue **Deploy** button. This is how easily you can deploy an agent in watsonx Orchestrate.
+5. Now let's deploy the agent by clicking on the blue **Deploy** button. This is how easily you can deploy an agent in watsonx Orchestrate. A deployed agent is marked as **live** and is made accessible from the Orchestrate home page, as well as able to be embbeded in external applications.
 
 ![deploy](./hands-on-lab-assets/deploy_agent.png)
 <br>
 <br>
 
-6. Now let's simmulate what the HR manager would do to automatically process résumés. First, download the résumés and job description files below. Once you have them in your local machine, upload them all at once by clicking on the **Upload** button below the chat. You can also drag and drop the files on the chat as an alternative.
+6. Now let's simulate what the HR manager would do to automatically process résumés. First, download the résumés and job description files below. Once you have them in your local machine, upload them all at once by clicking on the **Upload** button below the chat. You can also drag and drop the files on the chat as an alternative. Once all the files are uploaded send them like you would send any message to the agent, by pressing **Enter** while in the chat input or clicking on the **Send** button.
 
 - [Candidate 1's Résumé](../data/Candidate%201.pdf)
 - [Candidate 2's Résumé](../data/Candidate%202.pdf)
@@ -145,7 +145,7 @@ Draft an email asking Emma for three potential times for next week to interview.
 <br>
 <br>
 
-Now you need to set a description. This will be used to determine when to invoke the knowledge in the file. Add the following under **Description** and click **Save**:
+Now you need to set a description. This will be used to determine when to invoke the knowledge in the file. Add the following under **Description** and click **Save**. Wait for the knowledge base creation notification and proceed:
 
 ```
 This document has the availability and skills of different interviewers
@@ -180,14 +180,6 @@ draft an email to Emma to invite her for an interview with Aisha. Use Aisha's av
 ![draft email](./hands-on-lab-assets/draft_email.png)
 <br>
 <br>
-
-## 🤖 Automate talent acquisition agent using agentic workflows
-
-So far, you've built an agent leveraging the **Chat with documents** feature of watsonx Orchestrate to upload process résumés, job descriptions and interviewer schedules. In this case the agent's LLM does all the heavy lifting while it is Luisa's role to provide the right prompt/query.
-
-However, it is often not obvious what the right prompt should be, especially for an HR Manager without prompt engineering background. Furthermore, there might be additional steps involved, such as automatically reaching out to the selected candidate or automatically scheduling interviews. In this case we could leverage **Agentic Workflows**.
-
-The next part of the lab is about **Agentic Workflows**. It is more advanced and requires some low-coding skills and familiarity with basic programming concepts such as variables and for each loops. If you want to start right away, [follow these steps](./hands-on-lab-hr-manager-flows.md)
 
 ## 📝 HR case review agent
 
@@ -282,3 +274,11 @@ This agent manages different HR requests:
 ![add agents](./hands-on-lab-assets/agents_added.png)
 
 5. Now try different queries on the HR Manager Agent
+
+## 🤖 Automate talent acquisition agent using agentic workflows
+
+You've built an agent leveraging the **Chat with documents** feature of watsonx Orchestrate to upload process résumés, job descriptions and interviewer schedules. In this case the agent's LLM does all the heavy lifting while it is Luisa's role to provide the right prompt/query.
+
+However, it is often not obvious what the right prompt should be, especially for an HR Manager without prompt engineering background. Furthermore, there might be additional steps involved, such as automatically reaching out to the selected candidate or automatically scheduling interviews. In this case we could leverage **Agentic Workflows**.
+
+The next part of the lab is about **Agentic Workflows**. It is more advanced and requires some low-coding skills and familiarity with basic programming concepts such as variables and for each loops. To start, [follow these steps](./hands-on-lab-hr-manager-flows.md)
