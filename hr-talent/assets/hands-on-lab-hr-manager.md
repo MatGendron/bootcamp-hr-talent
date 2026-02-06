@@ -281,4 +281,4 @@ You've built an agent leveraging the **Chat with documents** feature of watsonx 
 
 However, it is often not obvious what the right prompt should be, especially for an HR Manager without prompt engineering background. Furthermore, there might be additional steps involved, such as automatically reaching out to the selected candidate or automatically scheduling interviews. In this case we could leverage **Agentic Workflows**.
 
-The next part of the lab is about **Agentic Workflows**. It is more advanced and requires some low-coding skills and familiarity with basic programming concepts such as variables and for each loops. To start, [follow these steps](./hands-on-lab-hr-manager-flows.md)
+The next part of the lab is about **Agentic Workflows**. It is more advanced and requires some low-coding skills and familiarity with basic programming concepts such as variables and for each loops. To start, [follow these steps](./hands-on-lab-hr-manager-flows.md).

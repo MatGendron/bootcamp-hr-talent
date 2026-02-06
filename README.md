@@ -47,8 +47,8 @@ Then move on to [the Flow Builder lab guide](/hr-talent/assets/hands-on-lab-hr-m
 
 ## 🏋 Practice on an API onboarding use case
 
-To apply what has been learned to an API onboarding use case, we have prepared a [third lab](/form-prefiling/README.md) to guide you through the steps required to implement the first use case of the API Onboarding Proof of Concept, namely form prefilling.
+To apply what has been learned to an API onboarding use case, we have prepared a [third lab](/form-prefilling/README.md) to guide you through the steps required to implement the first use case of the API Onboarding Proof of Concept, namely form prefilling.
 
 The form prefilling use case aims at providing a way to improve user experience of API requesters through an agentic solution that can rely on design gate documents, APIC team documentation, and some other available documents to prefill a significant number of the fields that are part of the Digital Me API request form.
 
-![workflow overview](/form-prefiling/images/workflow.png)
+![workflow overview](/form-prefilling/images/workflow.png)

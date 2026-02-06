@@ -1,23 +1,19 @@
 # Instructions for Watsonx.Orchestrate Free Trial
 
+## Introduction
 
-## Introduction 
 If you don’t already have an IBMid, you can complete the free-trial form using your current email address, which will then be registered as your IBMid.
-
-
 
 We use your email to validate you are who you say you are and to contact you for account related matters.
 
-
 No credit card is required and this will only take a couple of minutes to setup.
 
-
-
 ## Step-By-Step Guide
+
 1. Start by opening this [URL](https://www.ibm.com/products/watsonx-orchestrate).
 
 2. Click on the **"30-day free trial"** button  
-![Free Trial Page](./images/Screenshot%202026-01-29%20at%2016.43.52.png)
+   ![Free Trial Page](./images/Screenshot%202026-01-29%20at%2016.43.52.png)
 
 3. You'll be redirected to a form where you'll have 3 options :
 
@@ -26,7 +22,6 @@ No credit card is required and this will only take a couple of minutes to setup.
 - Log in with your IBM Account if you already have one.
 - Sign up with Google, it will redirect you to log in with your Gmail and save you the time of entering manually your informations.
 - Enter manually your informations as shown in the Screenshot bellow :
-
 
 ![Fill Form](./images/Screenshot%202026-01-29%20at%2014.44.53.png)
 
@@ -38,7 +33,7 @@ No credit card is required and this will only take a couple of minutes to setup.
 
 6. Click on the **"Submit"** button.
 
-7. You can select the desired *Region*, Frankfurt for instance, and you can change as well the *Name* of the deployed instance.
+7. You can select the desired _Region_, Frankfurt for instance, and you can change as well the _Name_ of the deployed instance.
 
 ![Instance Region & Name ](./images/Screenshot%202026-01-29%20at%2014.49.04.png)
 
@@ -53,3 +48,5 @@ No credit card is required and this will only take a couple of minutes to setup.
 ![WX.O ](./images/Screenshot%202026-01-29%20at%2014.49.51.png)
 
 Enjoy your 30-day free trial ! :)
+
+Once you have your free trial instance up and running you can move on to the [Chat with Documents lab guide](/hr-talent/assets/hands-on-lab-hr-manager.md).

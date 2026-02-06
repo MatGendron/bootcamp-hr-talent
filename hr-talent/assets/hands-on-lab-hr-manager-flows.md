@@ -562,3 +562,5 @@ We could easily expand this workflow with additional nodes and branches, for exa
 As you noticed when you tested the flow, depending on how the confidence thresholds are set up in the document processing nodes, human verification can be requested to make sure field data is extracted correctly.
 
 Combining agentic workflows with regular tools and individual tasks in an agent provides the greatest flexibility. A user can chat with the agent and invoke individual tasks as needed. For more complex, multi-step processes, agentic workflows are a powerful tool that can manage the entire process from beginning to end.
+
+You can now start the [Form prefilling lab](../../form-prefilling/README.md).
