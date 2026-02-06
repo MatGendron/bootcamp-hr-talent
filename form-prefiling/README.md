@@ -8,33 +8,34 @@
 - [Trouubleshooting](#troubleshooting)
 - [Pulling it all together](#pulling-it-all-together)
 
-
 ## Use Case Description
 
 This lab will guide you through the steps required to implement the first use case of the API Onboarding Proof of Concept, namely form prefilling. The form prefilling use case aims at providing a way to improve user experience of API requesters through an agentic solution that can rely on design gate documents, APIC team documentation, and some other available documents to prefill a significant number of the fields that are part of the Digital Me API request form.
 
 ![Digital Me Form overview](images/digital_me.png)
 
-Due to time constraints, we will build an agent able to prefill a couple of fields within a web mockup of the Digital Me API request form by extracting the values from a [PDF export of a previously filled form](assets/sample_form.pdf). 
+Due to time constraints, we will build an agent able to prefill a couple of fields within a web mockup of the Digital Me API request form by extracting the values from a [PDF export of a previously filled form](assets/sample_form.pdf).
 
 What you'll learn:
+
 - Defines an OpenAPI tool from a REST API endpoint (Initialize Form) that triggers the form prefilling action.
 - Defines an agentic workflow to handle file upload, document parsing, and form prefilling using the OpenAPI tool.
 
 ![workflow overview](images/workflow.png)
 
-This could help for instance if the user has already filled a lot of information when requesting deployment of the API in the Pre-production environment. Uploading a PDF export of that previously submitted form could help prefill much of the fields of the Production deployment request form. 
+This could help for instance if the user has already filled a lot of information when requesting deployment of the API in the Pre-production environment. Uploading a PDF export of that previously submitted form could help prefill much of the fields of the Production deployment request form.
 
 ## Disclaimer
 
 watsonx Orchestrate is a constantly evolving platform and some of the content in this lab may not faithfully reflect the current interface. Please refer to a bootcamp facilitator in case of issue.
 
 ## 🥇 Definition of the Form Prefilling Agent
+
 We will now walk you through the steps required to create a form prefilling agent.
 
 ### Create a new agent
 
-Open the Agent Builder in watsonx Orchestrate, if you aren't there already -- click on **Build->Agent Builder** in the main hamburger menu.
+Open the Agent Builder in watsonx Orchestrate, if you aren't there already -- click on **Build** in the main hamburger menu.
 
 ![watsonx Orchestrate navigation menu with Build and Agent Builder options highlighted](../hr-talent/assets/hands-on-lab-assets/open_agent_builder.png)
 
@@ -65,6 +66,7 @@ We will leave all the other settings at default values for now. Scroll down to t
 ![step-4](images/step-4.png)
 
 ### Definition of a OpenAPI tool
+
 We will start by defining a tool that will allow agent to trigger prefilling of the Digital Me API request form by invoking a REST api.
 
 In the **Add a tool** modal, select **OpenAPI**:
@@ -126,9 +128,9 @@ Click on **Done** to save the settings:
 
 ![step-15](images/step-15.png)
 
-The flow has two nodes only for now - the start node with 0 inputs and 0 variables configured, and the end node with 1 variable configured. 
+The flow has two nodes only for now - the start node with 0 inputs and 0 variables configured, and the end node with 1 variable configured.
 
-#### We will start by handling file upload 
+#### We will start by handling file upload
 
 Click on **Add +**, then **User activity**:
 
@@ -164,7 +166,7 @@ Upload the [**sample_form.pdf**](assets/sample_form.pdf) file:
 
 ![step-23](images/step-23.png)
 
-Click on **Add field +** to specify the fields to extract: 
+Click on **Add field +** to specify the fields to extract:
 
 Start with `requested for`, `product name` and `contact person`. You can add more fields later if needed:
 
@@ -178,7 +180,7 @@ Hover the arrow right after the document extractor block, then click on **+**, o
 
 #### Let's end with the logic to display the initialized form url
 
-Hover the arrow right after the **Initialize Form** tool block, then click on **+**, then  on  **User activity**:
+Hover the arrow right after the **Initialize Form** tool block, then click on **+**, then on **User activity**:
 
 ![step-27](images/step-27.png)
 
@@ -220,7 +222,6 @@ You can click on the link to access and complete it:
 
 ![step-34](images/step-34.png)
 
-
 ## Troubleshooting
 
 By default, watsonx Orchestrate uses AI to determine node inputs. In case of issue when executing the flow, you can try to specifiy node inputs.
@@ -236,6 +237,7 @@ Click on the **variable** icon (**{x}**) to choose the relevant variable.
 This lab demonstrates building an AI-powered form prefilling agent using watsonx Orchestrate to automatically populate fields in a Digital Me API request form by extracting data from uploaded documents (specifically PDF files). The solution leverages AI to analyze the document structure and content, then maps the extracted information to the corresponding fields in the form. This approach streamlines the process of gathering and submitting data, reducing manual effort and minimizing errors.
 
 What you've learned:
+
 - Defines an OpenAPI tool from a REST API endpoint (Initialize Form) that triggers the form prefilling action.
 - Defines an agentic workflow to handle file upload, document parsing, and form prefilling using the OpenAPI tool.
 
