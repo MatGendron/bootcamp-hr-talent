@@ -540,7 +540,7 @@ The agent summarizes by telling us who the recommended candidate is:
 ## Troubleshooting
 
 By default, watsonx Orchestrate uses AI to determine node inputs. In case of issue when executing the flow, you can try to specifiy node inputs.<br>
-In the flow for this lab this can apply to the `Resume extractor`, `Extract job skills`and `Match candidate skills to job skills` nodes.
+In the flow for this lab this can apply to the `Resume extractor`, `For each 1`, `Extract job skills`and `Match candidate skills to job skills` nodes.
 
 To specify node inputs, click on a node, then click on **Edit data mapping**:
 
