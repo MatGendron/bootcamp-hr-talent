@@ -41,7 +41,7 @@ This first agent will help with the recruiting process. Follow these steps to bu
 <br>
 <br>
 
-2. Give it a name and a description. Descriptions are used to route a given query to this agent when needed. You can use the description below or experiment with your own:
+2. Select **Create from scratch**. Give it a name and a description. Descriptions are used to route a given query to this agent when needed. You can use the description below or experiment with your own:
 
 ```
 This agent helps figure out whether a set of candidates match the skills given in a job description
@@ -192,6 +192,7 @@ This agent reviews HR cases from employee complaints of potential business condu
 ![hr case agent](./hands-on-lab-assets/hr_case_agent.png)
 <br>
 <br>
+Use the **llama-3-2-90b-vision-instruct** AI model for this agent.
 
 2. Add knowledge to it. Scroll down for the **Knowledge** section and click on **Choose Knowledge**
 
@@ -260,6 +261,8 @@ This agent manages different HR requests:
 
 2. HR Case Reviewer: processing HR complaints or cases submitted by employees as potential violations to the Business Conduct Guideliness
 ```
+
+Use the **llama-3-2-90b-vision-instruct** AI model for this agent.
 
 2. Scroll down to the Agents section and click **Add agent**.
 
