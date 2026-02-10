@@ -5,7 +5,7 @@
 - [Use case description](#use-case-description)
 - [Disclaimer](#disclaimer)
 - [Definition of the Form Prefilling Agent](#create-a-new-agent)
-- [Trouubleshooting](#troubleshooting)
+- [Troubleshooting](#troubleshooting)
 - [Pulling it all together](#pulling-it-all-together)
 
 ## Use Case Description
