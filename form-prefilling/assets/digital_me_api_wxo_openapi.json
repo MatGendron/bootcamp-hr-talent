@@ -213,6 +213,11 @@
             "default": "publication",
             "title": "Action"
           },
+          "requested_for": {
+            "type": "string",
+            "default": "",
+            "title": "Requested For"
+          },
           "environment": {
             "type": "string",
             "default": "development",
